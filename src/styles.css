@@ -76,6 +76,19 @@ main h5 {
   text-decoration: none;
 }
 
+.embed {
+  width: 100%;
+  aspect-ratio: 16/9;
+}
+
+.youtube-embeds {
+  margin: 30px 0;
+}
+
+.youtube-embeds .grid {
+  grid-gap: 20px;
+}
+
 section {
   max-width: 100%;
   margin: 0 auto;
