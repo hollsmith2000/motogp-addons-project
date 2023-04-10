@@ -86,7 +86,7 @@ main h5 {
   margin: 30px 0;
 }
 
-.youtube-embeds .grid {
+.youtube-embeds.grid {
   grid-gap: 20px;
 }
 
@@ -242,6 +242,10 @@ footer a {
   .grid {
     grid-template-columns: 1fr;
     grid-gap: 16px;
+  }
+
+  .youtube-embeds .grid {
+    grid-template-columns: 1fr 1fr;
   }
 
   section {
