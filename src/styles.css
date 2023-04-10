@@ -264,6 +264,10 @@ footer a {
 }
 
 @media (max-width: 450px) {
+  body {
+    margin: 0;
+  }
+
   header {
     padding: 100px 0;
   }
