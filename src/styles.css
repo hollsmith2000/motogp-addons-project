@@ -246,9 +246,14 @@ footer a {
 
   .youtube-embeds .grid {
     grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
   }
 
   section {
     padding: 30px;
+  }
+
+  section.embed-section {
+    padding: 100px 10px;
   }
 } ;
