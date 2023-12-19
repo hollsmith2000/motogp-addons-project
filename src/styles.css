@@ -1,6 +1,6 @@
 body {
   font-family: "Courier New", Courier, monospace;
-  background-color: #e9e9e9;
+  background-color: #000000;
 }
 
 .container {
@@ -111,7 +111,7 @@ section.embed-section {
 
 header {
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6)),
-    url("../images/_lgz4935.gallery_full_top_fullscreen.jpg");
+    url("../images/motogp-grid-photoshot-for-2023.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   color: white;
@@ -190,7 +190,7 @@ main p {
 footer {
   color: white;
   background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.6)),
-    url("../images/_dsc4037.gallery_full_top_fullscreen.jpg");
+    url("../images/motogp-Qatar-2023.jpg");
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -242,6 +242,7 @@ footer a {
   .motoGP-hill-image {
     width: 75%;
     margin: 0 auto;
+    padding: 50px;
   }
 
   .youtube-embeds .grid {
@@ -307,6 +308,10 @@ footer a {
 
   header {
     padding: 100px 0;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6)),
+      url("../images/motogp-grid-photoshot-for-2023-sm.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
   }
   header h1 {
     font-size: 48px;
@@ -324,8 +329,7 @@ footer a {
   }
 
   .motoGP-hill-image {
-    width: 100%;
-    margin: 0 auto;
+    display: none;
   }
 
   .embed {
