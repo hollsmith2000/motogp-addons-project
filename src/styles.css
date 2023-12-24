@@ -111,7 +111,7 @@ section.embed-section {
 
 header {
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6)),
-    url("../images/motogp-grid-photoshot-for-2023.jpg");
+    url("../images/_lgz4935.gallery_full_top_fullscreen.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   color: white;
@@ -351,6 +351,18 @@ footer a {
 
   section.secondary {
     padding: 30px 15px;
+  }
+
+  section.secondary h4 {
+    text-align: center;
+  }
+
+  .card-body {
+    padding: 20px;
+  }
+
+  .card-footer {
+    padding: 30px;
   }
 
   section.embed-section {
